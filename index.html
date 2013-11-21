@@ -1,23 +1,13 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset='utf-8'>
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <link href='https://fonts.googleapis.com/css?family=PT+Serif|PT+Mono' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen" />
-    <link rel="stylesheet" type="text/css" href="stylesheets/pygment_trac.css" media="screen" />
-    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print" />
-
-    <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-
-    <title>Fluditeg</title>
-
+    <title>Fluditeg - Thermoelectric Generator</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
     <meta name="author" content="Iginio Fidente">
     <meta name="description" content="Fluditeg is an electric generator based on the Peltier effect">
-    <meta name="keywords" content="fluditeg, electric generator, peltier effect">
+    <meta name="keywords" content="fluditeg, thermoelectric generator, peltier effect">
     <script type="text/javascript">
 var _gaq = _gaq || [];
 _gaq.push(['_setAccount', 'UA-41457605-1']);
@@ -30,48 +20,53 @@ _gaq.push(['_trackPageview']);
 })();
     </script>
   </head>
-
   <body>
-    <header>
-      <div class="inner">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-1 col-md-offset-10">
+          <a href="https://raw.github.com/giulivo/fluditeg/gh-pages/sketch.png" class="btn btn-primary pull-right">Sketch</a>
+        </div>
+        <div class="col-md-1">
+          <a href="mailto:iginio@fluditeg.com" class="btn btn-primary pull-right">Contact</a>
+        </div>
+      </div>
+      <hr />
+      <div class="jumbotron">
         <h1>Fluditeg</h1>
-        <h2>a compact electric generator with no moving parts</h2>
-        <!-- <a href="mailto:iginio@fluditeg.com" class="button"><small>Contact us by</small>email</a> -->
+        <p>A compact thermoelectric generator with no moving parts.</p>
       </div>
-    </header>
 
-    <div id="content-wrapper">
-      <div class="inner clearfix">
-        <section id="main-content">
-<p>Fluditeg is based on the Peltier effect and is capable of transforming into electrical energy the heat energy produced in normal operational circumstances by endothermic engines which would be otherwise burnt off into the atmosphere.</p>
+      <div class="row">
+        <div class="col-md-6">
+          <h3>What it does</h3>
+          <p>Basing on the Peltier effect, Fluditeg transforms the heat produced by an endothermic energy, otherwise burnt into the atmosphere, in electrical energy.</p>
+          <hr />
+          <h3>How it works</h3>
+          <p>Supplied with two fluids at different temperature (ranging from 60 to 200 °C), produces electric energy in relation to both, the amount of heat energy applied and the temperature delta between the fluids.</p>
+          <hr />
+          <h3>Why it is good</h3>
+          <p>Amongst others it provides for: reduced fuel consumptions up to 3%, reduced emissions and no additional costs compared to an existing generator eventually replaced.</p>
+        </div>
 
-<p>The device, supplied with fluids at different temperature ranging from 60 to 200 °C, produces electric energy in relation with both, the amount of heat energy applied and the temperature delta between the fluids. The main advantage of such a device is the opportunity to recover part of the heat energy produced and otherwise wasted.</p>
-
-<p>It is primarily made up of aluminum plates, wafer-assembled, accommodating two separate hydraulic circuits. The thermoelectric effect is the direct conversion of temperature differences into electric voltage. The efficiency is 3.5% circa so that for 8600Kcal (10KWh) applied in heat energy, 350Wh in electrical energy are produced. Such a device would be sized 12dm3, outputting circa 300W/350W using two fluids at 75°C temperature delta and it would weight circa 35Kg. As a matter of comparison, a typical liner bus burns off into the atmosphere 50% of the heat produced so for 100KWh applied on the wheels, we easily get to as much energy wasted.</p>
-
-<p>Also provides a number of additional advantages:
-<ol>
-<li>fuel consumption reductions up to 3%</li>
-<li>emission reductions</li>
-<li>no additional costs (given that the existing generator can be replaced)</li>
-</ol></p>
-        </section>
-
-        <aside id="sidebar">
-          <a href="https://raw.github.com/giulivo/fluditeg/gh-pages/sketch.png" class="button">
-            Sketch
-            <small>as .png file</small>
-          </a>
-          <a href="mailto:iginio@fluditeg.com" class="button">
-            Contact Us
-            <small>to learn more</small>
-          </a>
-
-          <!-- <p class="repo-owner">Fluditeg is an utility patent registered in Italy with number 0000273786</p> -->
-          <p>Fluditeg is an utility patent registered in Italy with number 0000273786</p>
-        </aside>
+        <div class="col-md-6">
+          <h3>Durability</h3>
+          <p>It is just made up of aluminum plates, wafer-assembled, accommodating two separate hydraulic circuits.</p>
+          <hr />
+          <h3>Efficiency</h3>
+          <p>Recover 3.5% circa of the heat enery applied. For example, if 8600Kcal (10KWh) are applied, 350Wh are made available as electrical energy; such a device would be sized 12dm3 and outputting 300W/350W circa by using two fluids at a delta temperature of 75°C; it would weight 35Kg circa.</p>
+          <hr />
+          <h3>Usability</h3>
+          <p>It could for example easily help recover what a typical liner bus burns off into the atmosphere, which is around 50% of the heat produced by its engine.</p>
+        </div>
       </div>
+
+      <div class="row">
+        <div class="col-md-12">
+          <hr />
+          <p class="text-muted"><small>Fluditeg &copy; is an utility patent, registered in Italy with n. 0000273786 by Iginio Fidente.</small></p>
+        </div>
+      </div>
+
     </div>
-
   </body>
 </html>

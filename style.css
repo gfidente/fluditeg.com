@@ -1,0 +1,8 @@
+body {
+    padding-top: 20px;
+}
+
+div.jumbotron {
+    background: url(header-bg.jpg) 0 0 repeat-x;
+    color: #ffffff;
+}
